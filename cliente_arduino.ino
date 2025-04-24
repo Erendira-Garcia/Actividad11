@@ -1,3 +1,10 @@
+#include <WiFi.h>
+#include <WiFiUdp.h>
+
+// Datos de la red e.g., ssid = ("Red-WiFi" ) y password = "PASSWORD"
+const char* ssid = "Red-WiFi";
+const char* password = "PASSWORD";
+
 // Datos del dispositivo receptor (e.g., la computadora)
 const char* hostIP = "192.0.0.0"; 
 const int udpPort = 4210;
